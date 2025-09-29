@@ -1,0 +1,4 @@
+It’s also possible for structs possible store references to data owned by something else, 
+but to do so requires the use of lifetimes (Chap 10). 
+Lifetimes ensure that the data referenced by a struct is valid for as long as the struct is.
+If you try to store a reference in a struct without specifying lifetimes it won’t work (see broken_lifetime.rs)
