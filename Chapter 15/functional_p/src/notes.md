@@ -11,3 +11,6 @@ use them in these situations:
 ### bytes:
 A box contains a pointer, which is 8 bytes on a 64-bit architecture. 
 An array of 4 pointers is therefore at least 4 * 8 = 32 bytes.
+
+## Deref
+Deref coercion converts a reference to a type that implements the Deref trait into a reference to another type
